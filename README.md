@@ -1,4 +1,4 @@
-## Website > https://wizardbrew.github.io/Simple-Email-Using-py-excel-to-outlook-/
+# Website > https://wizardbrew.github.io/Simple-Email-Using-py-excel-to-outlook-/
 
 # 🧙‍♂️ Simple-Email-Using-py-excel-to-outlook
 
