@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WizardBrew Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="wizard.css" />
+</head>
+<body>
+
+<header>
+  <div class="profile-action-container">
+    <a href="https://github.com/WizardBrew" target="_blank" rel="noopener">
+      <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile Photo" />
+    </a>
+    <button id="notifyBtn">🔔 Notify New Post</button>
+  </div>
+  <h1>📘 Simple-Email-Using-py-excel-to-outlook</h1>
+  <div class="bubble-container">
+    <a href="https://devopsenginer.in" class="bubble">🌐 devopsenginer.in</a>
+    <a href="https://github.com/WizardBrew" class="bubble">🐙 GitHub</a>
+    <a href="https://www.linkedin.com/in/parvezmustak8004/" class="bubble">💼 LinkedIn</a>
+    <a href="mailto:wizardbrew@outlook.com" class="bubble">✉️ Email</a>
+  </div>
+</header>
+
+<main>
+  <div class="step pink-step">
+    <h2>🔧 Setup Environment</h2>
+    <pre>
+cd your/project/folder
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install pandas openpyxl pywin32
+    </pre>
+    <p>✨ Create and activate your virtual environment, then install the required libraries.</p>
+  </div>
+
+  <div class="step pink-step">
+    <h2>📂 Excel File Preparation</h2>
+    <pre>
+Email, Subject, Body
+test@example.com, Follow-Up Reminder, Hello [FirstName], please review the details...
+    </pre>
+    <p>📑 Keep your Excel file in the reference folder. Add columns <code>Email</code>, <code>Subject</code>, and <code>Body</code>. 
+    Optionally, add <code>AttachmentPath</code> for files.</p>
+  </div>
+
+  <div class="step pink-step">
+    <h2>▶️ Run the Program</h2>
+    <pre>
+python main.py
+    </pre>
+    <p>🚀 Activate your environment and run the script. Outlook will send emails using the details from Excel.</p>
+  </div>
+
+  <div class="step pink-step">
+    <h2>🪄 Wizard Notes</h2>
+    <p>✔️ Outlook must be installed and configured.<br/>
+       ✔️ <code>pywin32</code> handles Outlook automation.<br/>
+       ✔️ Works only on Windows.<br/>
+       ✔️ Personalize <code>Body</code> with placeholders like <code>[FirstName]</code>.</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 WizardBrew. All rights reserved.
+</footer>
+
+</body>
+</html>
