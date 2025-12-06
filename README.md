@@ -1,3 +1,5 @@
+## Website > https://wizardbrew.github.io/Simple-Email-Using-py-excel-to-outlook-/
+
 # 🧙‍♂️ Simple-Email-Using-py-excel-to-outlook
 
 A lightweight automation to send emails directly from Excel using Python + Outlook.
